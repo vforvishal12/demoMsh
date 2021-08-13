@@ -2,7 +2,11 @@
 Demo msh interview project using Spring Boot and H2
 
 
+
+
 >> Employee Service 
+
+
 EndPoint -  localhost:9092/msh/employees
 
 Example -
@@ -20,6 +24,8 @@ GetEmployeeById - localhost:9092/msh/employees/1
   ----------------------------------------------------------------------------
   
   >> Department Service 
+  
+  
 EndPoint -  localhost:9091/msh/departments
 
 Example -
@@ -38,6 +44,8 @@ GetDepartmentById - localhost:9091/msh/departments/1
   ----------------------------------------------------------------------------
   
   >> Organization Service 
+
+
 EndPoint -  localhost:9090/msh/organizations
 
 Example -
@@ -52,6 +60,7 @@ GetOrganizationById - localhost:9090/msh/organizations/1
 
 
   ----------------------------------------------------------------------------
+  
     >> Eureka Server 
    
  EndPoint -    localhost:9003
